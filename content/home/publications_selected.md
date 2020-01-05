@@ -1,18 +1,38 @@
 +++
-# A Recent Blog Posts section created with the Pages widget.
-# This section displays recent blog posts from `content/post/`.
+# Selected Publications widget.
+# This widget displays publications from `content/publication/` which have
+# `selected = true` in their `+++` front matter.
 
-widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 60  # Order that this section will appear.
+date = 2016-04-20
+draft = false
 
-title = "Recent Posts"
+title = "Recent Publications"
 subtitle = ""
+widget = "pages"
+
+# Order that this section will appear in.
+weight = 25
+
+# List format.
+#   0 = Simple
+#   1 = Classic
+#   2 = Detailed
+list_format = 2
+
+# Filter by publication type.
+# -1: Any
+#  0: Uncategorized
+#  1: Conference proceedings
+#  2: Journal
+#  3: Work in progress
+#  4: Technical report
+#  5: Book
+#  6: Book chapter
+publication_type = "-1"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "post"
+  page_type = "publication"
   
   # Choose how much pages you would like to display (0 = all pages)
   count = 5
@@ -25,25 +45,25 @@ subtitle = ""
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = ""
+    tag = "Recent"
     category = ""
     publication_type = ""
     exclude_featured = false
-  
+
 [design]
   # Toggle between the various page layout types.
   #   1 = List
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 3
   
 [design.background]
   # Apply a background color, gradient, or image.
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
-  
+    
   # Background color.
   # color = "navy"
   
@@ -65,3 +85,4 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+

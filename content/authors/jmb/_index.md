@@ -20,12 +20,12 @@ organizations:
   url: "https://www.irit.fr/en/home/"
 
 # Short bio (displayed in user profile at end of posts)
-#bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Software Agility and Safety for Cyber-Physical Systems
-- Modeling and Languages Engineering
-- FUN (Final User Need) at the center of the concerns
+- Artificial Intelligence
+- Computational Linguistics
+- Information Retrieval
 
 education:
   courses:
@@ -49,10 +49,13 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/SmartResearchTeam
+  link: https://twitter.com/GeorgeCushen
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/smart-researchteam
+  link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -69,6 +72,6 @@ user_groups:
 - Visitors
 ---
 
-{{< smart >}} is a great software engineering team of the {{< theme7 >}} department that specializes in software agility and safety for cyber-physical systems. The team explores new foundations, and develops ground-breaking tools and methods for modeling and software languages (domain-specific languages, specification languages, programming and modeling languages), with a particular focus on the scientific breakthroughs related to socio-technical coordination (heterogeneity of models and execution platforms, final user in the loop, etc.). 
-{{< smart >}} is a leading team in model-driven engineering (MDE) and software language engineering (SLE). The team is highly involved in the international scientific community, and has established strong industrial partnerships (through bilateral and collaborative projects). 
-{{< smart >}} seconds most of the scientific contributions with software developments. The team is also highly involved in various open-source communities (e.g., Eclipse), and contributes to different projects.
+Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
